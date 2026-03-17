@@ -202,15 +202,15 @@ The app supports multiple brutalist-inspired themes:
 
 ## Future Improvements
 
-- [] drag-and-drop queue reordering
-- [] playlist creation and editing
-- [] user authentication
-- [] backend persistence
-- [] real uploaded cover art
-- [] waveform visualization
-- [] keyboard shortcuts
-- [] audio progress smoothing
-- [] shuffle and repeat modes
+- [ ] drag-and-drop queue reordering
+- [ ] playlist creation and editing
+- [ ] user authentication
+- [ ] backend persistence
+- [ ] real uploaded cover art
+- [ ] waveform visualization
+- [ ] keyboard shortcuts
+- [ ] audio progress smoothing
+- [ ] shuffle and repeat modes
 
 ## Design Direction
 
