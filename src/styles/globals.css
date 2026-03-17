@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background: #fff;
+  color: #000;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input[type="range"] {
+  cursor: pointer;
+}
+
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+.theme-mono {
+  background: #ffffff;
+  color: #000000;
+}
+
+.theme-warning {
+  background: #f97316;
+  color: #000000;
+}
+
+.theme-acid {
+  background: #d9f99d;
+  color: #000000;
+}
+
+.theme-concrete {
+  background: #d4d4d4;
+  color: #000000;
+}
+
+.theme-inverted {
+  background: #000000;
+  color: #ffffff;
+}
+
+.theme-main {
+  background: #f5f5f5;
+}
+
+.theme-warning .theme-main {
+  background: #fed7aa;
+}
+
+.theme-acid .theme-main {
+  background: #ecfccb;
+}
+
+.theme-concrete .theme-main {
+  background: #e5e5e5;
+}
+
+.theme-inverted .theme-main {
+  background: #171717;
+  color: #ffffff;
+}
+
+.theme-inverted ::selection {
+  background: #ffffff;
+  color: #000000;
+}
+
+@keyframes rawWavePulse {
+  0%,
+  100% {
+    transform: scaleY(0.45);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
